@@ -24,7 +24,11 @@ public interface UmsMemberService {
      */
     @Transactional
     void register(String username, String password, String telephone, String authCode);
-
+    /**
+     * 用户注册
+     */
+    @Transactional
+    void wxRegister(String username, String password, String telephone, String authCode);
     /**
      * 生成验证码
      */

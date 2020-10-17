@@ -33,7 +33,7 @@ secure:
       - /home/**
       - /product/**
       - /brand/**
-
+      - /wx/**
 # 自定义redis key
 redis:
   database: mall
